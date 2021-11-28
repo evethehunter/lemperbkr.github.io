@@ -1,0 +1,176 @@
+body* { margin:0; padding:0; box-sizing:border-box; }
+.container-fluid{
+    width: 100%;
+    padding: 0px;
+    
+    
+}
+/* logo */
+.container-logo{
+    width: 100%;
+    overflow: hidden;
+    padding:20px;
+    margin-bottom: 90px;
+    position: relative;
+    z-index: 4;
+}
+
+.logo{
+    color: rgb(214, 0, 0);
+    font-size: 40px;
+    font-weight: bold;
+}
+#Bahasa{
+    
+    color: white;
+    background-color: black;
+    padding: 3px ;
+    outline: white 1px solid;
+    border: none;
+    font-size: 11px;
+    
+
+}
+#masuk{
+
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 0px 10px;
+    margin-left: 3px;
+    
+}
+/* selesai */
+/* jumbotron */
+.jumbotron{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/03fdc4bf-72f6-4926-83a7-a76e6a1a5591/2a77a314-7ea0-435f-aafa-9deec1612e2d/ID-id-20211115-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    
+    height: 700px;
+    margin-top: -250px;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.jumbotron-container{
+    width: 100%;
+    margin: auto;
+    margin-top: 20%; 
+    height: 500px;
+    text-align: center;
+    z-index: 100!important;
+    position: relative;
+
+}
+.jumbotron h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 0px 15% ;
+}
+.jumbotron h3{
+    color: white;
+    text-align: center; 
+    font-weight: lighter;
+    margin-top: 3%;
+}
+.jumbotron p{
+    font-weight: lighter;
+    margin-top: 1%;
+    color: white;
+    text-align: center;
+
+}
+
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient( to bottom,rgba(0, 0, 0,0.6), rgba(0,0,0,0.8));
+    position: absolute;
+    bottom: 0;
+}
+
+#button{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 50px ;
+    border: none;    
+    
+}
+#search{
+    background-color:white;
+    width: 45%;
+    height: 50px;
+    border: none;
+    border-radius: 1px;
+    padding: 10px;
+}
+
+/* desktop */
+@media screen and (min-width: 900px) {
+    /* button bahasa indonesia & masuk */
+    .bahasa-button{
+    
+        justify-content: center!important;
+        padding-left: 20%;
+    }
+    #second-content{
+        height: 400px;
+        width: 100%;
+   
+    }
+    #second-row{
+        border-top: rgb(58, 58, 58) solid 5px;
+        background-color: black;
+    }
+    #first-content{
+        
+        height: 60px;
+
+    }
+    .second-row ,h1,p{
+        color: white;
+    }
+    .second-row h1{
+        font-size: 100px!important;
+        font-weight: bold!important;
+    }
+    #buatpading{
+        margin-top: 100px;
+        margin-left: 60px;
+        margin-right: 50px;
+    }
+    #buatpading h1{
+        font-weight: 700;
+        font-size: 50px;
+    }
+    #buatpading p{
+        font-size: 25px;
+        margin-bottom: 20%;
+    }
+    #buatpading1 h1{
+        font-weight: 600;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 10%;
+    }
+    #buatpadin1{
+        padding: 0px 30px;
+    }
+    .container-faq{
+        padding: 0px 60px;
+    }
+    #second-container-faq{
+        background-color: #303030!important;
+        text-decoration: none!important;
+        border: none;
+    }
+    
+}
+
